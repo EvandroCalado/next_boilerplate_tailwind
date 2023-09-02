@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply flex min-h-screen w-full flex-col bg-theme-100 text-theme-900 dark:bg-theme-900 dark:text-theme-100;
+  }
+
+  main {
+    @apply flex-1;
+  }
+
+  /* .article a {
+    @apply font-bold underline duration-200 hover:brightness-75;
+  }
+
+  .article h2 {
+    @apply mb-8 text-3xl font-semibold;
+  }
+
+  .article h3 {
+    @apply mb-4 text-xl font-semibold;
+  }
+
+  .article h4 {
+    @apply mb-4 text-lg font-semibold;
+  }
+
+  .article p {
+    @apply mb-4 text-lg;
+  }
+
+  .article pre {
+    @apply relative mb-6 grid overflow-x-auto rounded-md border-[1px] border-theme-700 bg-theme-200 px-4 py-2 font-mono font-bold leading-tight after:absolute after:right-2 after:top-2 after:text-xs after:text-theme-700 after:content-[attr(data-language)] dark:border-theme-300 dark:bg-theme-950;
+  }
+
+  .article pre code {
+    @apply border-none bg-transparent font-mono text-sm;
+  }
+
+  .article code {
+    @apply rounded bg-theme-500 px-2 font-mono text-sm dark:text-theme-300;
+  }
+
+  .article blockquote {
+    @apply mb-6 border-l-4 border-theme-900 pl-4 italic opacity-50 dark:border-theme-300;
+  }
+
+  .article figure {
+    @apply mb-6 overflow-hidden rounded-md;
+  }
+
+  .article figcaption {
+    @apply py-1 text-center;
+  }
+
+  .article ol,
+  .article ul {
+    @apply mx-4 my-6 list-disc leading-6;
+  } */
+}
